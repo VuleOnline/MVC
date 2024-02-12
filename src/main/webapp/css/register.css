@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+body {
+		font-family: 'Open Sans', sans-serif;
+		margin: 0;
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+        align-items: center;
+        font-size: 16px;	
+		}
+.main {
+		font-size: 16px;
+		}
+table {
+		width: 50%;
+    	max-width: 400px; 
+  		width: 100%;
+  		border-spacing: 15px;
+		}
+tbody td {
+		text-align: left;
+		display:block;
+		margin-bottom:15px;
+		}
+tbody td#mojCheckbox {
+  		display:table-cell;
+		}
+table input[type="text"], 
+table input[type="password"] {
+		width:80%;
+		border: none;
+		border-bottom: 1px solid #000;
+		}
+::placeholder {
+		font-style: italic;
+		}
+button {
+		border: none;
+		background-color:lightgreen;
+		color: white;
+		height: 30px;
+		cursor: pointer;
+		border-radius: 5%;
+		}
+button:active {
+    	background-color: #45a049;
+		}
+
+button:hover {
+    	background-color: #45a049; 
+			}
+thead, tfoot {
+		display: flex;
+    	justify-content: center;
+   		align-items: center;
+		height: 60px;
+		border-radius: 5px;
+		background-color: rgba(0, 0, 0, 0.09);			
+		}
